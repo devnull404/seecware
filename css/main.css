@@ -89,6 +89,7 @@ nav {
 }
 
 footer {
+  border: 1px solid red;
   border-top: 1px dotted green;
   padding: 10px 0 10px 0;
   height: 5vh;
@@ -100,6 +101,7 @@ footer * {
   color: #3c3c3c;
 }
 footer div {
+  border: 1px solid blue;
   display: flex;
   height: 100%;
   flex-direction: row;
@@ -111,7 +113,7 @@ footer div {
   font-size: 12px;
 }
 
-.f-left-info div a img {
+.f-left-info div img {
   height: 100%;
 }
 

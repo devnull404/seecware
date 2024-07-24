@@ -1,0 +1,125 @@
+* {
+  font-family: "Open Sans";
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+/* .navigation-bar-a
+ *  color: white
+ *  border-bottom: 1px solid #ff6b6b
+ *  background-color: #2c2c2c
+ *  display: flex
+ *  height: $NAV-H
+ *  ul
+ *      height: 100%
+ *      width: 100%
+ *      //border: 1px solid blue
+ *      margin: 0
+ *      padding: 0
+ *      display: flex
+ *      flex-direction: row
+ *      justify-content: space-evenly
+ *      li
+ *          list-style: none
+ *          align-content: end
+ *          font-weight: bold
+ *          align-items: center
+ *          img
+ *              height: 80% */
+nav {
+  height: 4vh;
+  background-color: #222222;
+  margin: 0 0 40px;
+}
+
+.nav_img_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.nav_img_container img#main-logo {
+  height: 80%;
+  animation: main-logo-anim 7s ease-in-out infinite;
+}
+
+@keyframes main-logo-anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.nav-decorator {
+  width: 100vw;
+  height: 0.2vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-decorator-elem-green {
+  width: 25%;
+  height: 100%;
+  background-color: #198cff;
+}
+
+.nav-decorator-elem-blue {
+  width: 25%;
+  height: 100%;
+  background-color: #9015fb;
+}
+
+.nav-decorator-elem-purple {
+  width: 25%;
+  height: 100%;
+  background-color: #f200ff;
+}
+
+.nav-decorator-elem-red {
+  width: 25%;
+  height: 100%;
+  background-color: #dbff12;
+}
+
+.aboutus {
+  font-weight: bold;
+}
+
+footer {
+  border-top: 1px dotted green;
+  padding: 10px 0 10px 0;
+  height: 5vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer * {
+  color: #3c3c3c;
+}
+footer div {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+}
+
+.f-right-info {
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.f-left-info div a img {
+  height: 100%;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=main.css.map */

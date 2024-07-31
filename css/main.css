@@ -21,6 +21,11 @@
   align-items: flex-start;
   min-width: 500px;
 }
+@media only screen and (min-width: 400px) {
+  .test_form {
+    min-width: 90vw;
+  }
+}
 .test_form label {
   font-size: 17px;
   font-weight: bold;
@@ -32,7 +37,7 @@
   padding: 10px;
   width: 100%;
   background-color: #ffffff;
-  min-width: 300px;
+  min-width: 250px;
   color: black;
 }
 .test_form button {
@@ -44,11 +49,6 @@
   background-color: #faff67;
 }
 
-@media (min-width: 720px) {
-  .test-form {
-    min-width: 300px;
-  }
-}
 /* .navigation-bar-a
  *  color: white
  *  border-bottom: 1px solid #ff6b6b

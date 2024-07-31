@@ -25,6 +25,8 @@
 
       <div class="test_form_container">
       <form class="test_form" action="action.php" method="post">
+        <img style="height: 100px; filter: invert(1);" src="https://isdamar.com/wp-content/uploads/2021/10/logo-isdamar-300x294-1.png" alt="CATERPILLAR LOGO">
+        <br>
         <div>
           <h1>DATABASE COLLECTING</h1>
           <br>
@@ -46,9 +48,17 @@
           <option value="D7T">D7T Tractor</option>
           <option value="D8T">D8T Tractor</option>
         </select>
-        <input name="hours" id="hours" placeholder="Horómetro" type="number">
-        <label for="age" id="age">How old are You:</label>
+        <label for="hours" id="hours">Work Hours</label>
+        <input name="hours" id="hours" placeholder="3255.54" type="number">
+        <label for="age" id="age">Bought Date</label>
         <input name="birthday" id="birthday" type="date">
+        <label for="proyect" id="proyect">Assignated Proyect</label>
+        <select name="proyect" id="proyect">
+          <option value="trenmayat2">Tren Maya T2ST5-SUR</option>
+          <option value="hermosillo-guasimas">Mina Guasimas</option>
+          <option value="colima-concheno">Mina Concheño</option>
+        </select>
+
         <button type="submit">Send</button>
       </form>
       </div>

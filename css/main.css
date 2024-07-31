@@ -12,6 +12,7 @@
 }
 
 .test_form {
+  border-top: 23px solid green;
   padding: 10px 5px 10px 10px;
   display: flex;
   flex-direction: column;
@@ -50,7 +51,7 @@
   min-width: 10vw;
   height: 50px;
   border-radius: 15px;
-  background-color: #faff67;
+  background-color: #f9ff4a;
 }
 
 /* .navigation-bar-a

@@ -37,7 +37,7 @@
   color: black;
 }
 .test_form input, .test_form select {
-  border: 1px solid gray;
+  border-bottom: 1px solid gray;
   margin: 6px 0px 10px 0px;
   padding: 10px;
   width: 100%;
@@ -51,7 +51,10 @@
   min-width: 10vw;
   height: 50px;
   border-radius: 15px;
-  background-color: #f9ff4a;
+  background-color: #73ff73;
+}
+.test_form input:focus {
+  background-color: #bfffb9;
 }
 
 /* .navigation-bar-a

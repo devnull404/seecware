@@ -28,7 +28,7 @@
         <img style="height: 100px; filter: invert(1);" src="https://isdamar.com/wp-content/uploads/2021/10/logo-isdamar-300x294-1.png" alt="CATERPILLAR LOGO">
         <br>
         <div>
-          <h1>DATABASE COLLECTING</h1>
+          <h1>MACHINERY REGISTRATION</h1>
           <br>
         </div>
         <label for="name" id="name">Promt Machine Serial Number</label>

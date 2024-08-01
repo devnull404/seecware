@@ -37,7 +37,7 @@
   color: black;
 }
 .test_form input, .test_form select {
-  border-bottom: 1px solid gray;
+  border-bottom: 3px solid gray;
   margin: 6px 0px 10px 0px;
   padding: 10px;
   width: 100%;
@@ -54,7 +54,40 @@
   background-color: #73ff73;
 }
 .test_form input:focus {
-  background-color: #bfffb9;
+  border-bottom: 3px solid green;
+  outline: none;
+}
+.test_form select:focus {
+  outline: none;
+  border-bottom: 3px solid green;
+}
+
+.main-menu-container {
+  display: flex;
+  justify-content: center;
+}
+.main-menu-container section {
+  max-width: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.main-menu-container section div {
+  border: 3px solid white;
+  margin: 2px 2px 2px 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  width: 150px;
+  color: black;
+}
+.main-menu-container section div img {
+  height: 50%;
+}
+.main-menu-container section div:hover {
+  border-bottom: 3px solid red;
 }
 
 /* .navigation-bar-a
@@ -142,7 +175,7 @@ nav {
 footer {
   border-top: 1px dotted green;
   padding: 10px 0 10px 0;
-  height: 5vh;
+  height: 42px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;

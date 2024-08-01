@@ -7,8 +7,14 @@
     <title>Form Response</title>
 </head>
 <body>
-Hi <?php echo htmlspecialchars($_POST['name']); ?>.
+You added a machinery with SN:  <?php echo htmlspecialchars($_POST['name']); ?>.
     <br>
-You were born in <?php echo $_POST['birthday']; ?>.
+Which is a: <?php echo $_POST['model']; ?>.
+<br>
+Has <?php echo $_POST['hours'] ?> work hours.
+<br>
+Assignated to the project: <?php echo $_POST['proyect']?>
+<br>
+With: <?php echo $_POST['hours'] ?>  ours of work already.
 </body>
 </html>
